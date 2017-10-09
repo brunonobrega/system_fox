@@ -1,0 +1,172 @@
+body {
+	overflow-x: hidden !important;
+	padding-top: 73px;
+}
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
+    font-weight: 400;
+    margin: 30px 0 15px;
+}
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, .navbar, .brand, .btn-simple, a, .td-name, td {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-family: "Verlag-Book","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+h2, .h2 {
+    font-size: 2.5em;
+    line-height: 1.25;
+    letter-spacing: 0.02em;
+    margin: 0.4em 0;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+h2 {
+	text-align: center;
+	text-transform: uppercase;
+	color:#333;
+	margin-top: 30px;
+}
+
+cite{
+	font-style: italic;
+}
+
+div.banner {
+    width: auto;
+    text-align: center;
+}
+img {
+    max-width: 100%;
+}
+
+.navbar-inverse{
+	margin:0;
+	border-radius: 0px;
+}
+
+.row{
+	margin: auto;
+}
+
+.servicos{
+	text-align: center;
+}
+
+.servicos .icon{
+	font-size: 60px;
+	margin-right: 35px;
+}
+
+.servicos .serv{
+	padding: 35px;
+}
+
+.clientes{
+	background: #f1f1f1;
+	min-height: 300px;
+	display: block;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.clientes img{
+	margin: auto;
+	margin-top: 12%;
+	text-align: center;
+	filter: grayscale(100%);
+}
+
+.clientes img:hover{
+	margin: auto;
+	margin-top: 12%;
+	text-align: center;
+	filter: initial;
+}
+
+.portfolio {
+	padding-right: 15px;
+	padding-left: 15px;
+	text-align: center;
+}
+
+.portfolio button {
+	margin: auto;
+	display: block;
+	border-radius: 50px;
+	margin-bottom: 20px;
+}
+
+.separator-container {
+    text-align: center;
+    position: relative;
+}
+
+.separator-container .separator{
+    color: #2fb445; /*#c5a47e*/
+    margin: 0 auto 1em;
+    width: 11em;
+}
+
+.separator-container .separator.line-separator:before, .separator-container .separator.line-separator:after {
+    display: block;
+    width: 40%;
+    content: " ";
+    margin-top: 14px;
+    border: 1px solid #2fb445;
+}
+
+.separator-container .separator.line-separator:before {
+    float: left;
+}
+
+
+.separator-container .separator.line-separator:after {
+    float: right;
+}
+
+.equipe{
+	text-align: center;
+}
+
+.map { 
+	margin-top: 40px; 
+}
+
+.footer{
+	text-align: center;
+	padding-top: 20px;
+	color: #fff;
+	font-size: 18px;
+}
+
+.portfolio img:hover{
+	filter: opacity(85%);
+}
+
+.empresa p, h3{
+	text-align: center;
+}
+
+.panel{
+	font-size: 18px;
+}
+
+.panel-body {
+	font-size: 18px;
+}
+
+.logo {
+	position: absolute;
+	height: 65px;
+	margin: 1.5px 0 0 60px;
+	-webkit-transition: -webkit-transform .8s ease-in-out;
+          transition:  			transform .8s ease-in-out;
+}
+
+.logo:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
